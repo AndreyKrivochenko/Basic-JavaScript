@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-pict {
+    position: absolute;
+    width: 400px;
+    border: 2px solid black;
+    display: none;
+}
+
+.basket {
+    width: 300px;
+    height: 80px;
+    margin: 20px 0;
+    background-color: orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.basket-title {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black
+}
+
+.basket-text {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog {
+    width: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart {
+    width: 200px;
+    height: 200px;
+    margin: 32px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-pict {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title {
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.cart-price {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.block-button {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+}
